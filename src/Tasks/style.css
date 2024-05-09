@@ -1,0 +1,30 @@
+.list__ul {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    list-style-type: none;
+}
+
+.list__task {
+    padding: 7px;
+    border-bottom: 1px solid hsl(0deg 0% 85.19%);
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+}
+
+.list__task--hidden {
+    display: none;
+}
+
+.list__content--done {
+    text-decoration: line-through;
+}
+
+@media(max-width: 767px) {
+    .list__sectionHeader {
+        grid-template-columns: 1fr;
+    }
+
+}

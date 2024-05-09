@@ -1,0 +1,62 @@
+.list__newButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list__button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    color: hsl(240, 33%, 99%);
+    margin: 0;
+    transition: 0.3s;
+}
+
+.list__button:active {
+    border: 1px solid hsla(0, 0%, 25%, 0.795);
+    border-radius: 2px;
+}
+
+.list__button--done {
+    background-color: green;
+}
+
+.list__button--done:hover {
+    background-color: hsla(120, 100%, 25%, 0.788);
+}
+
+.list__button--remove {
+    background-color: red;
+}
+
+.list__button--remove:hover {
+    background-color: hsla(0, 100%, 50%, 0.774);
+}
+
+
+.list__otherButtons {
+    border: none;
+    background: transparent;
+    color: hsl(180, 100%, 25%);
+    padding: 0px 10px 0px 10px;
+}
+
+.list__otherButtons:hover {
+    cursor: pointer;
+    color: hsla(180, 49%, 44%, 0.719);
+    transition: 0.3s;
+}
+
+.list__otherButtons:disabled {
+    color: hsla(0, 0%, 50%, 0.438);
+}
+
+
+@media(max-width: 767px) {
+    .list__newButtons {
+        justify-content: center;
+    }
+}
