@@ -3,6 +3,8 @@
 ## Description:
 This project of website application was created for practising basic skills.
 
+[link to website](https://hubertklimczyk.github.io/to-do-list-react/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
